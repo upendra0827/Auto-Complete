@@ -1,0 +1,24 @@
+.autocomplete {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inputField {
+    height: 40px;
+    width: 260px;
+}
+
+.suggestions {
+    /* border: 1px solid black; */
+    width: 260px;
+    /* height: 200px; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.active {
+    background-color: beige;
+}
